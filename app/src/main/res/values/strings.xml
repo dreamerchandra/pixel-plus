@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Pixel++</string>
+    <string name="qs_sound_manager_label">Sound Manager</string>
+    <string name="qs_sound_manager_subtitle">System volume</string>
+    <string name="home_title">Pixel++</string>
+    <string name="home_body">Add Sound Manager to Quick Settings, then tap the tile to open the system volume panel.</string>
+    <string name="add_sound_tile">Add Sound Manager tile</string>
+    <string name="open_sound_controls">Open sound controls</string>
+    <string name="tile_added">Sound Manager added</string>
+    <string name="tile_already_added">Sound Manager is already in Quick Settings</string>
+    <string name="tile_not_added">Tile was not added</string>
+    <string name="assistive_dial_title">Assistive dial</string>
+    <string name="assistive_dial_body">A floating button. Tap it to open Sound, which shows the system volume panel, and Screen off, which locks the phone and turns the display off.</string>
+    <string name="assistive_dial_description">Shows a floating button with sound controls and a screen-off control.</string>
+    <string name="assistive_dial_enable">Turn on assistive dial</string>
+    <string name="assistive_dial_on">Assistive dial is on</string>
+    <string name="assistive_dial_off">Assistive dial is off. In Accessibility, allow restricted settings for Pixel++ if the switch is disabled, then turn on Assistive dial.</string>
+    <string name="assistive_logo">px++</string>
+    <string name="assistive_sound">Sound</string>
+    <string name="assistive_screen_off">Screen off</string>
+</resources>

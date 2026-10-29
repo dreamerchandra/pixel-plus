@@ -1,0 +1,59 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.Pixel" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/retro_foreground</item>
+        <item name="colorPrimaryVariant">@color/retro_background</item>
+        <item name="colorOnPrimary">@color/retro_background</item>
+        <item name="colorSecondary">@color/retro_foreground</item>
+        <item name="colorSecondaryVariant">@color/retro_foreground</item>
+        <item name="colorOnSecondary">@color/retro_background</item>
+        <item name="colorSurface">@color/retro_background</item>
+        <item name="colorOnSurface">@color/retro_foreground</item>
+        <item name="android:colorBackground">@color/retro_background</item>
+        <item name="android:windowBackground">@color/retro_background</item>
+        <item name="android:statusBarColor">@color/retro_background</item>
+        <item name="android:navigationBarColor">@color/retro_background</item>
+        <item name="android:textColor">@color/retro_foreground</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="fontFamily">monospace</item>
+        <item name="materialButtonStyle">@style/Widget.Pixel.RetroButton</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="23">false</item>
+    </style>
+
+    <style name="Widget.Pixel.RetroButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="cornerRadius">0dp</item>
+        <item name="strokeColor">@color/retro_foreground</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="backgroundTint">@color/retro_background</item>
+        <item name="android:textColor">@color/retro_foreground</item>
+        <item name="rippleColor">@color/retro_line</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:letterSpacing">0.06</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+    </style>
+
+    <style name="Text.Pixel.Logo" parent="android:TextAppearance">
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:textColor">@color/retro_foreground</item>
+        <item name="android:textSize">42sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.02</item>
+    </style>
+
+    <style name="Text.Pixel.Section" parent="android:TextAppearance">
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:textColor">@color/retro_foreground</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.08</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="Text.Pixel.Body" parent="android:TextAppearance">
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:textColor">@color/retro_foreground</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+    </style>
+</resources>
